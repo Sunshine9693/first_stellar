@@ -1,0 +1,224 @@
+{
+  "quests": [
+    {
+      "id": "stellar-quiz-101",
+      "title": "Stellar 101 Knowledge Check",
+      "category": "Education",
+      "description": "Demonstrate your understanding of Stellar consensus, XLM lumens, and fast 3-5s settlement.",
+      "points": 150,
+      "icon": "GraduationCap",
+      "type": "quiz",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "fund-faucet",
+      "title": "Claim Testnet Friendbot Faucet",
+      "category": "Onboarding",
+      "description": "Fund your student wallet with 10,000 Testnet XLM using the Friendbot faucet.",
+      "points": 100,
+      "icon": "Coins",
+      "type": "action",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "first-payment",
+      "title": "Send First Testnet Payment",
+      "category": "Transactions",
+      "description": "Execute a peer-to-peer testnet transfer to another student or university faucet.",
+      "points": 200,
+      "icon": "Send",
+      "type": "action",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "workshop-attendance",
+      "title": "Blockchain Workshop Attendance",
+      "category": "Campus Event",
+      "description": "Check in to the weekly Stellar Web3 Campus Developer Workshop.",
+      "points": 300,
+      "icon": "CalendarCheck",
+      "type": "code",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "soroban-smart-contract",
+      "title": "Explore Soroban Smart Contracts",
+      "category": "Development",
+      "description": "Learn about Soroban Rust contracts and passkey-based smart accounts.",
+      "points": 250,
+      "icon": "Code2",
+      "type": "quiz",
+      "difficulty": "Advanced"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "xlm-payout-10",
+      "name": "10 XLM Direct Testnet Payout",
+      "description": "Instant on-chain XLM transfer sent directly to your student wallet address!",
+      "cost": 100,
+      "category": "Crypto Payout",
+      "icon": "Zap",
+      "isCrypto": true,
+      "xlmAmount": 10,
+      "badge": "Instant On-Chain"
+    },
+    {
+      "id": "campus-coffee",
+      "name": "Campus Canteen Coffee Voucher",
+      "description": "Valid for 1 artisan espresso or iced latte at the University Student Center.",
+      "cost": 200,
+      "category": "Campus Perk",
+      "icon": "Coffee",
+      "isCrypto": false,
+      "badge": "Digital Voucher"
+    },
+    {
+      "id": "stellar-swag-kit",
+      "name": "Stellar Student Developer Swag Kit",
+      "description": "Exclusive Stellar developer hoodie, stickers, and holographic badge.",
+      "cost": 500,
+      "category": "Merchandise",
+      "icon": "Shirt",
+      "isCrypto": false,
+      "badge": "Physical Kit"
+    },
+    {
+      "id": "library-lab-pass",
+      "name": "24/7 AI & Blockchain Lab Pass",
+      "description": "Priority access to high-performance GPU workstations in the Computer Science Lab.",
+      "cost": 350,
+      "category": "Academic",
+      "icon": "Key",
+      "isCrypto": false,
+      "badge": "Lab Pass"
+    },
+    {
+      "id": "nft-certificate",
+      "name": "Certified Stellar Scholar NFT Badge",
+      "description": "Mint a permanent verifiable on-chain achievement certificate.",
+      "cost": 600,
+      "category": "Certification",
+      "icon": "Award",
+      "isCrypto": true,
+      "badge": "Verified NFT"
+    }
+  ],
+  "quizQuestions": {
+    "stellar-quiz-101": [
+      {
+        "id": 1,
+        "question": "What is the native cryptocurrency token of the Stellar network?",
+        "options": [
+          "Ether (ETH)",
+          "Lumen (XLM)",
+          "Solana (SOL)",
+          "Bitcoin (BTC)"
+        ],
+        "correctIndex": 1,
+        "explanation": "Lumen (XLM) is the native asset on the Stellar network used to pay transaction fees and reserve balances."
+      },
+      {
+        "id": 2,
+        "question": "How fast are Stellar transactions settled on average?",
+        "options": [
+          "10-60 minutes",
+          "3-5 seconds",
+          "24 hours",
+          "Instant (0 ms)"
+        ],
+        "correctIndex": 1,
+        "explanation": "Stellar uses the Stellar Consensus Protocol (SCP), which settles ledgers deterministically in 3 to 5 seconds."
+      },
+      {
+        "id": 3,
+        "question": "What is the primary browser wallet for interacting with Stellar dApps?",
+        "options": [
+          "MetaMask",
+          "Phantom",
+          "Freighter",
+          "Trust Wallet"
+        ],
+        "correctIndex": 2,
+        "explanation": "Freighter is the official browser extension wallet developed by the Stellar Development Foundation (SDF)."
+      }
+    ],
+    "soroban-smart-contract": [
+      {
+        "id": 1,
+        "question": "What programming language is primarily used to write Soroban smart contracts?",
+        "options": [
+          "Solidity",
+          "Rust",
+          "Python",
+          "PHP"
+        ],
+        "correctIndex": 1,
+        "explanation": "Soroban smart contracts are written in Rust and compiled to WebAssembly (WASM)."
+      },
+      {
+        "id": 2,
+        "question": "What is the testnet faucet service called on Stellar?",
+        "options": [
+          "Alchemy Faucet",
+          "Friendbot",
+          "Infura Tap",
+          "Stellar Well"
+        ],
+        "correctIndex": 1,
+        "explanation": "Friendbot is Stellar's official testnet faucet that provides 10,000 free testnet XLM for development."
+      }
+    ]
+  },
+  "profiles": {
+    "GCU6YXRJV3FWXM5ALSBLE7QPFM7UTFIIU56TVDNKRFPQXPKZ5HONA2DR": {
+      "address": "GCU6YXRJV3FWXM5ALSBLE7QPFM7UTFIIU56TVDNKRFPQXPKZ5HONA2DR",
+      "name": "Stellar Explorer",
+      "studentId": "STU-GCU6-A2DR",
+      "points": 250,
+      "completedQuests": [
+        "fund-faucet",
+        "stellar-quiz-101"
+      ],
+      "badges": [
+        {
+          "id": "stellar-cadet",
+          "name": "Stellar Cadet",
+          "description": "Joined the Stellar Student Network",
+          "icon": "Sparkles",
+          "unlockedAt": "2026-08-30T08:21:28.957Z"
+        },
+        {
+          "id": "faucet-funder",
+          "name": "Friendbot Explorer",
+          "description": "Successfully claimed testnet lumens from Friendbot",
+          "icon": "Coins",
+          "unlockedAt": "2026-08-30T08:21:28.958Z"
+        },
+        {
+          "id": "quiz-master-101",
+          "name": "Stellar 101 Scholar",
+          "description": "Passed the Stellar 101 knowledge test with 100% accuracy",
+          "icon": "Award",
+          "unlockedAt": "2026-08-30T08:22:10.314Z"
+        }
+      ],
+      "level": 2,
+      "rankTitle": "Orbit Pioneer",
+      "joinedAt": "2026-08-30T08:21:28.957Z"
+    }
+  },
+  "redemptions": [
+    {
+      "id": "RED-1788078138956-61",
+      "address": "GCU6YXRJV3FWXM5ALSBLE7QPFM7UTFIIU56TVDNKRFPQXPKZ5HONA2DR",
+      "rewardId": "xlm-payout-10",
+      "rewardName": "10 XLM Direct Testnet Payout",
+      "cost": 100,
+      "redeemedAt": "2026-08-30T08:22:18.956Z",
+      "txHash": "c9b08037b1202ff17c9dcd84efed237c40ea33beb8074ccbee4c4b1e604ce99d",
+      "status": "Completed",
+      "voucherCode": "STU-PERK-FTF98IX"
+    }
+  ]
+}
